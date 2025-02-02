@@ -62,3 +62,28 @@
     font-style: normal;
     
 }
+
+.part3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px; 
+    /* background-color: #007BFF;  */
+    color: white; 
+    border-radius: 5px; 
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.part3 button{
+    background-color: #007BFF;
+    color: white; 
+    border-radius: 5px; 
+    font-size: 18px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: "Roboto Condensed", serif;
+    font-weight: 600;
+}

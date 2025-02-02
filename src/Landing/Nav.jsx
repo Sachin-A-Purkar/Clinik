@@ -3,7 +3,7 @@ import "./Nav.css"
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Nav() {
@@ -34,7 +34,7 @@ export default function Nav() {
                 <a href="#home" className='an1'> CONTACT </a>
             </div>
             <div className='part3'>
-              <button>Appointment<FontAwesomeIcon icon={faArrowRight}/></button>
+              <a href='#home'><button>Appointment<FontAwesomeIcon icon={faArrowRight}/></button></a>
             </div>
       </div>
       
