@@ -34,7 +34,7 @@ export default function Nav() {
                 <a href="#home" className='an1'> CONTACT </a>
             </div>
             <div className='part3'>
-              <a href='#home'><button>Appointment<FontAwesomeIcon icon={faArrowRight}/></button></a>
+              <button>Appointment<FontAwesomeIcon icon={faArrowRight}/></button>
             </div>
       </div>
       
