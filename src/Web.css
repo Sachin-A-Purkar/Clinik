@@ -1,7 +1,89 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    background-color: yellow;
+.navbar{
     width: 100vw;
-    height: 100vh;
+    height: 150px;
 }
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.logo{
+    z-index: 2;
+}
+
+.logoimg{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    
+}
+
+.menuitems>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between
+}
+.menuitems>ul>li{
+    margin-left: 5vw;
+}
+
+#opt{
+    margin-right: 10px;
+}
+
+#opt>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+#opt>ul>li{
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+i {
+    margin-right: 30px;
+  }
+  
+  /* Mega menu visibility */
+  .rightmenu {
+    display: none;
+    position: relative;
+  }
+  
+  .megamenu {
+    position: absolute;
+    width: 100vw;
+    top: 40px;
+    right: 0;
+    background-color: rgb(18, 21, 25);
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .rightmenu.open-menu .megamenu {
+    visibility: visible;
+    opacity: 1; /* Show when toggled */
+  }
+  
+  .megamenu > li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+  }
+  
+  .megamenu > li > a {
+    text-decoration: none;
+    color: rgb(220, 202, 135);
+  }
+  
+  .megamenu > li > a:hover {
+    font-weight: 900;
+  }
+  
