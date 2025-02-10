@@ -14,6 +14,7 @@ function App() {
     <>
     <BrowserRouter>
     <Nav/>
+    <Carousle/>
     </BrowserRouter>
       
       {/* <Carousle/> */}

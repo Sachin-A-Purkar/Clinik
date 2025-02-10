@@ -1,31 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Indie+Flower&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
 #navbar {
   width: 100vw;
-  height: 150px;
+  height: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
+  
   background-color: white;
   position: fixed;
   top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   z-index: 2;
-  font-family: "Space Grotesk", serif;
+  font-family: "Archivo Black", serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 a {
   text-decoration: none;
-  color: #0463FA;
+  color: #0463fa;
+  font-size: 30px;
+}
+
+a:hover{
+  color: #003488;
 }
 
 #image {
   z-index: 2;
 }
 
-#navimg {
-  width: 50px;
-  height: 50px;
+#image>p{
+  color: #0463FA;
   margin-left: 20px;
+}
+#navimg {
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
   margin-top: 10px;
   border-radius: 50%;
 }
@@ -34,10 +47,16 @@ a {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  position:static;
 }
 
 #menuitems > ul > li {
   margin-left: 5vw;
+}
+
+#menuitems>ul>li :hover{
+  color: #003488;
+  transform: scale(1.9);
 }
 
 #options {
@@ -56,7 +75,9 @@ a {
   font-size: 17px;
 }
 
-i {
+.i1 {
+  height: 32px;
+  width: 32px;
   margin-right: 30px;
 }
 
@@ -64,6 +85,7 @@ i {
 .rightmenu {
   display: none;
   position: relative;
+  margin-top: 20px;
 }
 
 .megamenu {
@@ -124,9 +146,9 @@ i {
   }
 
   #navimg {
-    width: 90px;
-    height: 90px;
-    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
     margin-top: 5px;
   }
 }
@@ -151,9 +173,9 @@ i {
 }
 
 #navimg {
-  width: 130px;
-  height: 130px;
-  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+  margin-left: 40px;
   margin-top: 10px;
   border-radius: 50%;
 }
@@ -234,7 +256,8 @@ i {
 
 .rightmenu:hover .megamenu {
   visibility: visible;
-  opacity: 1;
+  opacity: 2;
+  background-color: aliceblue;
 }
 
 .megamenu > li > a:hover:after {
@@ -245,6 +268,7 @@ i {
 @media screen and (max-width: 950px) {
   #navbar {
     font-size: 18px;
+    height: 120px;
   }
 
   .rightmenu {
@@ -262,14 +286,14 @@ i {
 
 @media screen and (max-width: 768px) {
   #navbar {
-    height: 100px;
+    height: 120px;
     font-size: 16px;
   }
 
   #navimg {
-    width: 90px;
-    height: 90px;
-    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    margin-left: 35px;
     margin-top: 5px;
     border-radius: 50%;
   }
