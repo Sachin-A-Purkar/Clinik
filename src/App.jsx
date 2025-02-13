@@ -6,6 +6,8 @@ import './App.css'
 
 import Nav from './Landing/Nav'
 import Carousle from './Landing/Carousle'
+import About from './Landing/About';
+import Servicesm from './Landing/Servicesm';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +17,8 @@ function App() {
     <BrowserRouter>
     <Nav/>
     <Carousle/>
+    <About/>
+    <Servicesm/>
     </BrowserRouter>
       
       {/* <Carousle/> */}

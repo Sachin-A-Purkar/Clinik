@@ -41,23 +41,13 @@ const Nav = () => {
               </a>
             </li>
             <li>
-              <a href="#menu" onClick={closeMenu}>
-                Menu
-              </a>
-            </li>
-            <li>
-              <a href="#laurels" onClick={closeMenu}>
-                Awards
+              <a href="#services" onClick={closeMenu}>
+                Services
               </a>
             </li>
             <li>
               <a href="#find-us" onClick={closeMenu}>
                 Contact
-              </a>
-            </li>
-            <li>
-              <a href="#login" onClick={closeMenu}>
-              Login / Register 
               </a>
             </li>
           </ul>

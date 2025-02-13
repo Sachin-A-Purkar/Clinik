@@ -2,7 +2,7 @@
 
 #navbar {
   width: 100vw;
-  height: 130px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,7 +20,7 @@
 a {
   text-decoration: none;
   color: #0463fa;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 a:hover{
@@ -38,7 +38,7 @@ a:hover{
 #navimg {
   width: 30px;
   height: 30px;
-  margin-left: 50px;
+  margin-left: 70px;
   margin-top: 10px;
   border-radius: 50%;
 }
@@ -52,6 +52,7 @@ a:hover{
 
 #menuitems > ul > li {
   margin-left: 5vw;
+  font-size: 1rem;
 }
 
 #menuitems>ul>li :hover{
@@ -141,14 +142,14 @@ a:hover{
 
 @media screen and (max-width: 768px) {
   #navbar {
-    height: 100px;
+    height: 80px;
     font-size: 16px;
   }
 
   #navimg {
     width: 40px;
     height: 40px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: 5px;
   }
 }
@@ -156,7 +157,7 @@ a:hover{
 /* Navbar */
 #navbar {
   width: 100vw;
-  height: 150px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -173,9 +174,9 @@ a:hover{
 }
 
 #navimg {
-  width: 70px;
-  height: 70px;
-  margin-left: 40px;
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
   margin-top: 10px;
   border-radius: 50%;
 }
@@ -268,7 +269,7 @@ i {
 @media screen and (max-width: 950px) {
   #navbar {
     font-size: 18px;
-    height: 120px;
+    height: 80px;
   }
 
   .rightmenu {
@@ -286,14 +287,14 @@ i {
 
 @media screen and (max-width: 768px) {
   #navbar {
-    height: 120px;
+    height: 80px;
     font-size: 16px;
   }
 
   #navimg {
-    width: 60px;
-    height: 60px;
-    margin-left: 35px;
+    width: 40px;
+    height: 40px;
+    margin-left: 45px;
     margin-top: 5px;
     border-radius: 50%;
   }
