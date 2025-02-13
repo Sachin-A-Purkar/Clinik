@@ -1,73 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Indie+Flower&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
 
-#acontainer{
-    height: 90vh;
-    width: 100vw;
+#acontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    min-width: 90vw;
+    max-height: 100vh;
+    max-width: 100vw;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#acol1 {
+    width: 40%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#acol1{
-    width: 40%;
-    height: 90%;
-    display: flex;
-  justify-content: center;
-    align-items: center;
-}
-
-.aimg1{
+.aimg1 {
     height: 80%;
     width: 95%;
     background-color: olive;
     border-radius: 20px;
 }
 
-
-.acol2{
+.acol2 {
     width: 55%;
     height: 90%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.but2{
+.but2 {
     width: 150px;
     height: 35px;
     color: black;
     background-color: aliceblue;
-    border: 1px solid skyblue ;
+    border: 1px solid skyblue;
     border-radius: 30px;
     margin-top: 30px;
-    margin-left: 30px;
     font-size: 15px;
-    
 }
 
-#ahead{
+#ahead {
     font-family: "Archivo Black", serif;
     color: #1B2C51;
-    margin-left: 30px;
     font-size: 30px;
     margin-top: 30px;
 }
-#para{
+
+#para {
     font-size: 20px;
     width: 800px;
-    margin-left: 30px;
     margin-top: 25px;
     line-height: 30px;
 }
-#check{
+
+#check {
     font-size: 20px;
     color: green;
     margin-top: 20px;
-    margin-left: 30px;
-  
 }
 
-.but3{
+.but3 {
     height: 40px;
     width: 150px;
     background-color: #0463fa;
@@ -76,21 +77,112 @@
     border-radius: 20px;
     font-size: 15px;
     margin-top: 15px;
-    margin-left: 30px;
 }
 
+/* ---------- Tablets (max-width: 1024px) ---------- */
 @media (max-width: 1024px) {
     #acontainer {
-      flex-direction: column;
-      margin-top: 10vh;
-      height: 200vh;
+        flex-direction: column;
+        margin-top: 10vh;
+        height: auto;
     }
-    #acol1, #acol2{
+
+    #acol1, #acol2 {
         width: 100%;
-        height: 100vh;
+        height: auto;
     }
-    #acol1{
-        margin: 30px;
-        margin-right:50px ;
+
+    #acol1 {
+        margin: 20px;
+    }
+
+    #para {
+        width: 90%;
+        font-size: 18px;
+    }
+}
+
+/* ---------- Large Mobile Phones (max-width: 768px) ---------- */
+@media (max-width: 768px) {
+    #acontainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #acol1, #acol2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .aimg1 {
+        height: 70%;
+        width: 80%;
+    }
+
+    #ahead {
+        font-size: 24px;
+    }
+
+    #para {
+        font-size: 16px;
+        line-height: 25px;
+        width: 95%;
+    }
+
+    .but2, .but3 {
+        width: 140px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+/* ---------- Small Mobile Phones (max-width: 480px) ---------- */
+@media (max-width: 480px) {
+    #acontainer {
+        padding: 10px;
+    }
+
+    #acol1, #acol2 {
+        width: 100%;
+    }
+
+    .aimg1 {
+        height: 60%;
+        width: 90%;
+    }
+
+    #ahead {
+        font-size: 20px;
+    }
+
+    #para {
+        font-size: 14px;
+        width: 95%;
+        line-height: 22px;
+    }
+
+    .but2, .but3 {
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+/* ---------- Extra Small Devices (max-width: 360px) ---------- */
+@media (max-width: 360px) {
+    #ahead {
+        font-size: 18px;
+    }
+
+    #para {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .but2, .but3 {
+        width: 100px;
+        height: 28px;
+        font-size: 11px;
     }
 }
