@@ -2,7 +2,8 @@
     width: 100vw;
     height: 80vh;
     display: flex;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    margin-right: -10px;
   }
   
   .div60 {
@@ -51,7 +52,7 @@
     text-align: left;
     line-height-step: 1;
     height: 80px;
-    border-left: 5px solid white ;
+    border-left: 1px solid white ;
     line-height: 110%;
     padding-left: 10px;
   }
@@ -137,9 +138,14 @@
   
     .div60, .div40 {
       width: 100%;
-      
+      margin-top: -35px;
     }
-
+    .totalt{
+      padding-right: 20px;
+    }
+    .total{
+      padding-right: 10px;
+    }
     .carousel{
       width: 90vw;
     }

@@ -27,25 +27,21 @@
     border-radius: 20px;
 }
 
-.acol2 {
+#acol2 {
     width: 55%;
     height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding: 35px;
 }
 
 .but2 {
-    width: 150px;
+    width: 190px;
     height: 35px;
     color: black;
     background-color: aliceblue;
     border: 1px solid skyblue;
     border-radius: 30px;
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 #ahead {
@@ -76,10 +72,9 @@
     border: none;
     border-radius: 20px;
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
-/* ---------- Tablets (max-width: 1024px) ---------- */
 @media (max-width: 1024px) {
     #acontainer {
         flex-direction: column;
@@ -102,9 +97,9 @@
     }
 }
 
-/* ---------- Large Mobile Phones (max-width: 768px) ---------- */
 @media (max-width: 768px) {
     #acontainer {
+        width: 100%;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -137,10 +132,10 @@
     }
 }
 
-/* ---------- Small Mobile Phones (max-width: 480px) ---------- */
 @media (max-width: 480px) {
     #acontainer {
-        padding: 10px;
+        width: 100%;
+        
     }
 
     #acol1, #acol2 {
@@ -169,7 +164,6 @@
     }
 }
 
-/* ---------- Extra Small Devices (max-width: 360px) ---------- */
 @media (max-width: 360px) {
     #ahead {
         font-size: 18px;
