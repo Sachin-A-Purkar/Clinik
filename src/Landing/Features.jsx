@@ -3,16 +3,14 @@ import "./Features.css"
 
 const Features = () => {
   return (
-    <div>
-      <div className="container  feat">
-        <div className="row serv">
-          <div className="column">
-            <div className='box1'></div>
-            <div className='box1'></div>
-          </div>
-        </div>
+    <div className="container-fluid mt-3 feat">
+      <div className="row featr">
+        <div className="col-sm-12 col-md p-3' coluu1">Column 1</div>
+        <div className="col-sm-12 col-md p-3' coluu2">Column 2</div>
       </div>
     </div>
+
+
   )
 }
 

@@ -1,6 +1,37 @@
 .feat{
-    height: 100vh;
-    width: 100vw;
-    background-color: aqua;
-    min-height: 90vh;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featr{
+    height: 70vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluu1{
+    height: 100%;
+    width: 50%; 
+    background-color: #3b82f6;
+}
+.coluu2{
+    height: 100%;
+    width: 50%; 
+    background-color: orange;
+    
+}
+
+@media (max-width: 768px) {
+    .featr{
+        display: block;
+    }
+    .coluu1,.coluu2{
+        width: 100%;
+    }
 }

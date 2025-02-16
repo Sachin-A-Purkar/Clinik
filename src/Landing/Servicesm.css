@@ -1,32 +1,36 @@
 .serc {
-    width: 80%;
+    width: 100%;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 50px;
     min-height: 90vh;
+    padding-bottom: 20px;
   }
   
   
-  .hea{
+  .shead{
     height: 150px;
     width: 100%;
     text-align: center;
+    display: inline;
   }
   .heati{
     margin-top: 20px;
     margin-left: 15px;
+    font-size: 40px;
   }
   .boxh{
     height: 20px;
   }
   .serv {
+    width: 100vw;
     display: flex;
-    gap: 20px; /* Adds spacing between columns */
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center;
+    gap: 40px; 
+    flex-wrap: wrap; 
   }
   
   .column {
-    flex: 1; /* Ensures equal width */
-    
+    flex: 1; 
     color: white;
     padding: 20px;
     text-align: center;
@@ -42,10 +46,11 @@
     
     height: 48%;
     margin-bottom: 20px;
+    gap: 40px;
   }
   .box2{
     height: 48%;
-    
+    margin-top: 30px;
   }
   .but4{
     width: 160px;
@@ -55,12 +60,13 @@
     border: 1px solid skyblue ;
     border-radius: 30px;
     margin-top: 20px;
-    margin-left: 30px;
     font-size: 16px;
+    margin-left:45%;
     font-weight: 500;
 }
 .card {
-    width: 20rem; /* 320px */
+    width: 22rem; /* 320px */
+    height: 20rem;
     border-radius: 1rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -68,8 +74,17 @@
     transition: transform 0.3s ease;
     color: #007bff;
     background-color: #EFF5FF;
+    animation: up 1s linear  1 normal ;
+    
   }
-  
+   @keyframes up {
+    from {
+      margin-top: 100px;
+    }
+    to{
+      margin-top: 0px;
+    }
+   }
   .card:hover {
     transform: translateY(-0.5rem);
   }
@@ -113,21 +128,27 @@
   }  
 
   #ico{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     margin-top: 10px;
     color: #007bff;
     background-color: white;
     border-radius: 50%;
-    font-size: 20px;
+    margin-left: 30px;
   }
 
 
-  /* Media query for mobile and tablet */
   @media (max-width: 768px) {
     .column {
-      display: block; /* Stacks columns one on top of the other */
-      margin-bottom: 10px; /* Adds space between stacked columns */
+      display: block; 
+      margin-bottom: 10px; 
+    }
+    .shead{
+      text-align: center;
+    display: inline;
+    }
+    .but4{
+      margin-left: 115px;
     }
   }
   

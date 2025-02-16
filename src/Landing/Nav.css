@@ -128,29 +128,8 @@ a:hover{
 }
 
 /* Media Queries for responsiveness */
-@media screen and (max-width: 950px) {
-  /* Hide desktop menu items */
-  #menuitems {
-    display: none;
-  }
-
-  /* Hide the options menu on mobile */
-  #options {
-    display: none;
-  }
-
-  /* Show the hamburger menu for mobile screens */
-  .rightmenu {
-    display: block;
-  }
-}
 
 @media screen and (max-width: 768px) {
-  #navbar {
-    height: 5rem;
-    font-size: 1rem;
-  }
-
   #navimg {
     width: 2.5rem;
     height: 2.5rem;
@@ -161,7 +140,7 @@ a:hover{
 
 /* Navbar */
 #navbar {
-  width: 100vw;
+  width: 100%;
   height: 5rem;
   display: flex;
   justify-content: space-between;
@@ -287,20 +266,5 @@ i {
 
   #options {
     display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #navbar {
-    height: 5rem;
-    font-size: 1rem;
-  }
-
-  #navimg {
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-left: 45px;
-    margin-top: 5px;
-    border-radius: 50%;
   }
 }

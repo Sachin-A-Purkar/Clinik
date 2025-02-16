@@ -5,15 +5,16 @@ import { FaXRay } from "react-icons/fa";
 
 function Servicesm() {
   return (
-    <div>
-      <div className="hea">
-        <button className='but4'>About Us</button>
+    <div className='container-fluid mt-3 serc'>
+      <div className='row'>
+        <div className='col shead'>
+        <button className='but4'>About Us</button><br/>
         <h2 className='heati'>Health Care Solutions</h2>
+        </div>
       </div>
-      <div className="container  serc">
-        <div className="row serv">
-          <div className="column">
-            <div className='box1'>
+      <div className='row serv'>
+        <div className='col-sm-12 col-md p-3'>
+        <div className='box1'>
               <div className="card">
               <FaHeartbeat id='ico'/>
                 <div className="card-body">
@@ -33,9 +34,9 @@ function Servicesm() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="column">
-            <div className='box1'>
+        </div>
+        <div className='col-sm-12 col-md p-3'>
+        <div className='box1'>
             <div className="card">
             <FaBrain id='ico'/>
                 <div className="card-body">
@@ -55,9 +56,9 @@ function Servicesm() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="column">
-            <div className='box1'>
+        </div>
+        <div className='col-sm-12 col-md p-3'>
+        <div className='box1'>
             <div className="card">
                 <FaTooth id='ico'/>
                 <div className="card-body">
@@ -78,9 +79,9 @@ function Servicesm() {
               </div>
             </div>
           </div>
-        </div>
-        </div>
-    </div>
+          </div>
+          </div>
+      
   )
 }
 
