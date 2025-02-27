@@ -90,7 +90,7 @@
     padding: 10px;
     cursor: pointer;
     font-size: 18px;
-    z-index: 2;
+    
   }
   
   .carousel-btn:first-of-type {
@@ -154,3 +154,10 @@
     }
   }
   
+
+  @media screen and (max-width:480px) {
+      .container{
+        width: 100%;
+        
+      }
+  }
