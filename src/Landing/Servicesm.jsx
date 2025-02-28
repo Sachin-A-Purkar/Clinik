@@ -8,7 +8,7 @@ function Servicesm() {
     <div className='container-fluid mt-3 serc'>
       <div className='row'>
         <div className='col shead'>
-        <button className='but4'>About Us</button><br/>
+        <button className='but2  v'>About Us</button><br/>
         <h2 className='heati'>Health Care Solutions</h2>
         </div>
       </div>
