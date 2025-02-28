@@ -25,8 +25,9 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-    gap: 40px; 
+    gap: 2.5rem; 
     flex-wrap: wrap; 
+    margin-top: 2rem;
   }
   
   .column {
@@ -73,14 +74,20 @@
     color: #007bff;
     background-color: #EFF5FF;
     animation: up 1s linear  1 normal ;
+    gap: 30px;
     
+  }
+  .card:hover{
+    box-shadow: 2px 2px 1.5rem 15px lightblue;;
   }
    @keyframes up {
     from {
       margin-top: 100px;
+      opacity: 0;
     }
     to{
-      margin-top: 0px;
+      margin-top: 10px;
+      opacity: 1;
     }
    }
   .card:hover {
