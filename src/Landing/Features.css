@@ -62,11 +62,23 @@
 .featr1{
     height: 200px;
     width: 100%;
-    background-color: antiquewhite;
+    display: block;
+    margin-top: 1.2rem;
+}
+.featc1{
+    height: 50%;
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .featc2{
 background-color: aqua;
+height: 50%;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
 
 .coluu2{
@@ -80,6 +92,16 @@ background-color: aqua;
     width: 100%;
 }
 
+#fico{
+    height: 3rem;
+    width: 3rem;
+    background-color:white;
+    color: #3b82f6;
+    border-radius: 50%;
+    font-size: 2rem;
+    float: left;
+    margin-right: 14rem;
+}
 
 @media (max-width: 768px) {
     .featr{
