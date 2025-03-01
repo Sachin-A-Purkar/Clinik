@@ -30,14 +30,14 @@
 .coluu1{
     height: 100%;
     width: 50%; 
-    background-color: #3b82f6;
+    background-color: #0463FA;
     display: block;
 }
 .featbut{
     width: 120px;
     height: 30px;
     color: white;
-    background-color: #3b82f6;
+    background-color: #0463FA;
     border: 1px solid white;
     border-radius: 30px;
     margin-top: 4rem;
@@ -62,29 +62,25 @@
 .featr1{
     height: 200px;
     width: 100%;
-    display: block;
     margin-top: 1.2rem;
-}
-.featc1{
-    height: 50%;
-    width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+}
+.featc1{
+    height: 100%;
+    width: 50%;
+    background-color: antiquewhite;
+    float: left;
 }
 .featc2{
-background-color: aqua;
-height: 50%;
-width: 100%;
-display: flex;
-justify-content: space-around;
-align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
 }
 
 .coluu2{
     height: 100%;
     width: 50%; 
-    background-color: orange;
     
 }
 .featimg{
@@ -93,15 +89,27 @@ align-items: center;
 }
 
 #fico{
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color:white;
-    color: #3b82f6;
+    color: #0463FA;
     border-radius: 50%;
     font-size: 2rem;
-    float: left;
-    margin-right: 14rem;
+    margin-left: 4rem;
 }
+#fih2{
+    width: 3rem;
+    margin-right: 14rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.cona{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
 
 @media (max-width: 768px) {
     .featr{
@@ -125,5 +133,11 @@ align-items: center;
     .featp{
         width: 90%;
         font-size: 1.1rem;
+    }
+    .feath1 ,.featbut, .featp{
+        margin-left: 1.5rem;
+    }
+    .featc1, .featc2{
+        display: block;
     }
 }
