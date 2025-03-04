@@ -64,6 +64,9 @@
   border: 1px solid lightgray;
   margin-top: -9px;
 }
+.logohead{
+  color: #3b82f6;
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -97,12 +100,7 @@
     padding: 10px 0;
   }
   
-  .logo{
-
-  }
-  .logohead{
-    
-  }
+  
 }
 
 body {

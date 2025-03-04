@@ -14,13 +14,14 @@ const Features = () => {
           <p className='featp'>At the heart of our hospital is a team of highly skilled and experienced medical professionals dedicated to delivering the highest standard of care. Our doctors, nurses, and healthcare staff are not only leaders in their respective fields but also deeply committed to providing personalized and compassionate care to every patient.</p>
           <div className='row featr1'>
             <div className='col featc1'>
-            <p className='cona'><FontAwesomeIcon icon={faUserDoctor} border  id='fico'/> Expirenced <br/> Doctor</p>
+            <p className='cona'><FontAwesomeIcon icon={faUserDoctor} border  id='fico'/> <h2 id='fih2'>Expirenced <br/> Doctor</h2></p>
               <br/>
-            <p className='cona'><FontAwesomeIcon icon={faCommentMedical} border id='fico'/>Positive <br/>Consultation</p>
+            <p className='cona'><FontAwesomeIcon icon={faCommentMedical} border id='fico'/><h2 id='fih2'>Positive <br/>Consultation</h2></p>
               </div>
             <div className='col featc2'>
-                <FontAwesomeIcon icon={faCheck} border id='fico'/><h2 id='fih2'>Quality <br/>Services</h2>
-                <FontAwesomeIcon icon={faHeadphonesSimple} border id='fico'/><h2 id='fih2'>24Hours <br/>Support</h2>
+            <p className='cona'><FontAwesomeIcon icon={faCheck} border id='fico'/><h2 id='fih2'>Quality <br/>Services</h2></p>
+              <br/>
+            <p className='cona'><FontAwesomeIcon icon={faHeadphonesSimple} border id='fico'/><h2 id='fih2'>24Hours <br/>Support</h2></p>
             </div>
           </div>
         </div>

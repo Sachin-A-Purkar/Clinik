@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Indie+Flower&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
 
 .feat{
-    min-height: 80vh;
+    min-height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@
     }
 }
 .featr{
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background-color: bisque;
     display: flex;
@@ -54,10 +54,13 @@
 }
 .featp{
     width: 600px;
-    font-size: 1.1rem;
-    color: white;
+    font-size: 1.3rem;
     margin-left: 4rem;
     margin-top: 1rem;
+    
+    color: white;
+    line-height: 30px;
+    font-weight: 300;
 }
 .featr1{
     height: 200px;
@@ -69,13 +72,11 @@
 .featc1{
     height: 100%;
     width: 50%;
-    background-color: antiquewhite;
     float: left;
 }
 .featc2{
     height: 100%;
     width: 50%;
-    background-color: aquamarine;
 }
 
 .coluu2{
@@ -101,8 +102,9 @@
     width: 3rem;
     margin-right: 14rem;
     margin-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: white;
+    font-weight: 600;
 }
 
 .cona{
@@ -130,14 +132,25 @@
     .coluu1,.coluu2{
         width: 100%;
     }
+    .coluu1{
+        height: 98vh;
+    }
+    .coluu2{
+        height: 50vh;
+    }
     .featp{
         width: 90%;
         font-size: 1.1rem;
+    }
+
+    .featr1{
+        display: grid;
     }
     .feath1 ,.featbut, .featp{
         margin-left: 1.5rem;
     }
     .featc1, .featc2{
         display: block;
+        margin-top: 1.5rem;
     }
 }
